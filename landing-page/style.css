@@ -1,0 +1,180 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    flex-grow: 2;
+    gap: 20px;
+}
+
+header, .section {
+    padding: 20px 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    gap: 16px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration-line: none;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+header, ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    padding: 16px 0;
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    justify-content: center;
+    gap: 8px;
+}
+
+.hero button {
+    width: 100px;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-item {
+    text-align: center;
+    width: 250px;
+}
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote {
+    width: 800px;
+}
+
+.quote-from {
+    text-align: end;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+}
+
+.call-to-action {
+    padding: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.four button {
+    width: 120px;
+    border-radius: 5px;
+}
+
+
+
+/* Color and Font */
+
+header,
+.section.one,
+footer {
+    background-color: #1F2937;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a, footer,
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+button,
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.section.three {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-from {
+    font-weight: bold;
+}
+
+.four button {
+    color: white;
+    border-color: white;
+}
+
+.four {
+    color: white;
+}
+
+.call-p {
+    font-weight: bold;
+}
