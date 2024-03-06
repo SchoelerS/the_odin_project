@@ -1,0 +1,65 @@
+What are the eight data types in JavaScript?
+--> Number, bigint, string, boolean, null, undefined, object and symbol
+
+Which data type is NOT primitive?
+--> Object
+
+What is the relationship between null and undefined?
+--> null = value unknown (empty) and undefined = value is not assigned
+
+What is the difference between single, double, and backtick quotes for strings?
+--> backticks can be used for embedded Strings, in "" u can use '' and vice versa
+
+What is the term for joining strings together?
+--> concatenation
+
+Which type of quote lets you embed variables/expressions in a string?
+--> backticks ``
+
+How do you embed variables/expressions in a string?
+--> `${x}`
+
+How do you use escape characters in a string?
+--> backshlash \
+
+What is the difference between the slice/substring/substr string methods?
+--> slice and substring are almost the same, except in subrstring values of < 0 are treated as 0
+    in substr the second value is used for the lenght
+
+What are the three logical operators, and what do they stand for?
+--> && (and), || (or), ! (not)
+
+What are the comparison operators?
+-->  <, <= , == , === , >, >=, !=
+
+What are truthy and falsy values?
+--> converted results into a boolean like 0 for false (falsy) or 1 for true (truthy)
+
+What are the falsy values in JavaScript?
+--> 0, "", null, undefined and NaN
+
+What are conditionals?
+--> conditionals are decisions to get different outputs depending on inputs
+
+What is the syntax for an if/else conditional?
+--> if (condition) {
+    ' some code ';
+} else {
+    ' some code ';
+}
+
+What is the syntax for a switch statement?
+--> switch (value) {
+    case 'some value':
+    ' some code ';
+    break;
+    default:
+    ' some code ';
+
+}
+
+What is the syntax for a ternary operator?
+--> condition ? value1 : value2
+
+What is nesting?
+--> a condition inside of a condition
